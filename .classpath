@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="lib/spark-core-2.7.2.jar" sourcepath="C:/Users/IBM_ADMIN/.m2/repository/com/sparkjava/spark-core/2.7.2/spark-core-2.7.2-sources.jar"/>
-	<classpathentry kind="lib" path="lib/gson-2.8.2.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-api-1.7.13.jar"/>
-	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.22.jar"/>
-	<classpathentry kind="lib" path="lib/javax.servlet-api-3.1.0.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-http-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-io-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-security-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-server-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-servlet-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-util-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-webapp-9.4.8.v20171121.jar"/>
-	<classpathentry kind="lib" path="lib/jetty-xml-9.4.8.v20171121.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="output" path="bin/default"/>
 </classpath>
